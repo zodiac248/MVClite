@@ -7,6 +7,10 @@
   <servlet>
     <servlet-name>DispatchServlet</servlet-name>
     <servlet-class>mvc.servlet.DispatchServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:mvc.xml</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>DispatchServlet</servlet-name>
